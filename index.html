@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PPE Detection</title>
+    <style>
+        body{
+            text-align:center;
+            font-family:Arial;
+            background:#f4f4f4;
+        }
+
+        h1{
+            margin-top:20px;
+        }
+
+        img{
+            border:5px solid black;
+            width:900px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>PPE Detection Live Camera</h1>
+
+<img src="{{ url_for('video_feed') }}">
+
+</body>
+</html>
